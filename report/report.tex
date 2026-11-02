@@ -26,7 +26,6 @@ We shipped exactly that predictor in both tracks; on the Codabench competition p
 We report how far cheap, model-free features get towards beating the public-label floor.
 Twenty-two surface features of the problem text, fed to a logistic regression or a gradient-boosted classifier, carry a small but statistically distinguishable ranking signal (AUC 0.65--0.66, permutation $p\le0.005$ on 141 problems from one model), but not enough to beat the majority class in accuracy: with the decision threshold chosen inside each training fold, accuracy is 0.70--0.71 against 0.745.
 The usual protocol of choosing the threshold on the cross-validated predictions is 1--2 points more optimistic.
-We did not run any competition model, so we say nothing about model-internal signals.
 \end{abstract}
 
 \section{Task and what we submitted}
