@@ -1,0 +1,113 @@
+{
+  "sklearn": "1.7.2",
+  "n": 141,
+  "seeds": 20,
+  "auc": {
+    "logreg": {
+      "all": [
+        0.6633,
+        0.017
+      ],
+      "only_length": [
+        0.7228,
+        0.009
+      ],
+      "without_length": [
+        0.6364,
+        0.0199
+      ],
+      "only_numbers_and_operators": [
+        0.7181,
+        0.015
+      ],
+      "without_numbers_and_operators": [
+        0.6551,
+        0.0161
+      ],
+      "only_latex_and_case": [
+        0.5087,
+        0.0347
+      ],
+      "without_latex_and_case": [
+        0.6918,
+        0.0168
+      ],
+      "only_keywords": [
+        0.5392,
+        0.0241
+      ],
+      "without_keywords": [
+        0.6998,
+        0.0161
+      ]
+    },
+    "hgb": {
+      "all": [
+        0.667,
+        0.0217
+      ],
+      "only_length": [
+        0.6489,
+        0.0279
+      ],
+      "without_length": [
+        0.6641,
+        0.0236
+      ],
+      "only_numbers_and_operators": [
+        0.6559,
+        0.0281
+      ],
+      "without_numbers_and_operators": [
+        0.6556,
+        0.0242
+      ],
+      "only_latex_and_case": [
+        0.676,
+        0.0188
+      ],
+      "without_latex_and_case": [
+        0.6607,
+        0.0256
+      ],
+      "only_keywords": [
+        0.5686,
+        0.0179
+      ],
+      "without_keywords": [
+        0.6683,
+        0.0229
+      ]
+    }
+  },
+  "power": {
+    "n": 141,
+    "baseline_accuracy": 0.7447,
+    "gains": {
+      "0.02": {
+        "power": 0.129,
+        "min_correct": 114
+      },
+      "0.03": {
+        "power": 0.196,
+        "min_correct": 114
+      },
+      "0.05": {
+        "power": 0.389,
+        "min_correct": 114
+      },
+      "0.08": {
+        "power": 0.736,
+        "min_correct": 114
+      },
+      "0.1": {
+        "power": 0.901,
+        "min_correct": 114
+      },
+      "0.15": {
+        "power": 0.999,
+        "min_correct": 114
+      }
+    }
+  }
+}

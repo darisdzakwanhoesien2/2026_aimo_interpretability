@@ -1,0 +1,16 @@
+data/
+!data/.gitkeep
+experiments/runs/
+output/*.zip
+!output/.gitkeep
+literature/*.pdf
+__pycache__/
+*.pyc
+.venv/
+.venv-*/
+.DS_Store
+.ipynb_checkpoints/
+
+# Cloned official repos — external, each has its own .git.
+examples/getting-started/
+examples/baselines/
